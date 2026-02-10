@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
-const OFFICIAL_EMAIL = "arun0046.be23@chitkara.edu.in";
+const OFFICIAL_EMAIL = "aaryan0004.be23@chitkara.edu.in";
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
